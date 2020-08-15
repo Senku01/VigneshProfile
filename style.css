@@ -1,0 +1,51 @@
+.card3{
+  background: #ee0979;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height:300px;
+  width:auto;
+  position: absolute;
+  margin: auto;
+  top: auto;
+  bottom:auto;
+  left: 10px;
+  right:0px;
+  border-radius: 8px;
+  border-shadown:none;
+}
+body{
+  background-image: url(background4.jpg);
+  width: auto;
+
+  }
+.hob{
+  height: auto;
+  width: auto;
+padding-top: 30px;
+padding-left: 600px;
+font-weight: 30px;
+font-size: 20px;
+font-style: oblique;
+font-family:  Courier,monospace;
+}
+.mono{
+  height: auto;
+  width: auto;
+  letter-spacing: 5px;
+padding-top: 10px;
+  float: right;
+}
+@@media only screen and (max-width:600px) {
+
+  #card3{
+
+    width: 100%;
+
+}
+ #hob{
+   width: auto;
+ }
+ #mono{
+   width:auto;
+}
